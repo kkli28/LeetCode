@@ -5,7 +5,7 @@ Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one s
 Note:
 You may assume that nums1 has enough space (size that is greater or equal to m + n) to hold additional elements from nums2. The number of elements initialized in nums1 and nums2 are m and n respectively.
 
-> 思路
+> idea
 
 从头到尾遍历两个数组，下标均从0开始，将较小的一个放入中间数组中，并递增下标（另一个不递增）。
 直到某一个数组全部放入中间数组，另一个则直接放入中间数组即可。

@@ -18,7 +18,7 @@ For k = 2, you should return: 2->1->4->3->5
 For k = 3, you should return: 3->2->1->4->5
 ```
 
-> 思路
+> idea
 
 先创建一个附加节点，其next域指向head所指节点。这样就可以用一个逻辑处理所有组。
 

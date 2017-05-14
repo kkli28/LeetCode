@@ -4,7 +4,7 @@ Divide two integers without using multiplication, division and mod operator.
 
 If it is overflow, return MAX_INT.
 
-> 思路（非原创）
+> idea（非原创）
 
 GG
 

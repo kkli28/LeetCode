@@ -5,7 +5,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 
-> 思路
+> idea
 
 两个链表的节点值，对应从链表首加到一个链表结束。如果有进位则用carry变量记录并累加到后一个计算中。
 

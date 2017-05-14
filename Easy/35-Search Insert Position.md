@@ -12,7 +12,7 @@ Here are few examples.
 [1,3,5,6], 0 → 0
 ```
 
-> 思路
+> idea
 
 二分查找
 

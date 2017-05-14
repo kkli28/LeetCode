@@ -19,7 +19,7 @@ For the purpose of this problem, assume that your function returns 0 when the re
 Note:
 The input is assumed to be a 32-bit signed integer. Your function should return 0 when the reversed integer overflows.
 
-> 思路
+> idea
 
 首先剔除特殊情况，如x为 `INT_MIN` 或 `INT_MAX`。只要不是这两个，必然由负转到正不会溢出。用pos记录x的
 符号，并将x转化成正数。然后再转换成字符串（通过取余添加字符的方式，得到的字符串为逆序串，刚好完成了

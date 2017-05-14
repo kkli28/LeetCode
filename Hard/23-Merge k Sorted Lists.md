@@ -2,7 +2,7 @@
 
 Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
-> 思路
+> idea
 
 将每个链表的首元素比较，并将链表指针result指向最小的元素，对应的链表首指针后移，完成初始化。
 

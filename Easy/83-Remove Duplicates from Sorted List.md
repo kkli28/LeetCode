@@ -6,7 +6,7 @@ For example,
 Given `1->1->2` , return `1->2` .
 Given `1->1->2->3->3` , return `1->2->3` .
 
-> 思路
+> idea
 
 两个指针prePtr和nextPtr，prePtr指向前一个节点，nextPtr指向后一个节点，如果两者指向的节点的值
 相同，则prePtr不变，且prePtr的next域指向nextPtr的next域所指节点，否则prePtr后移。nextPtr每次

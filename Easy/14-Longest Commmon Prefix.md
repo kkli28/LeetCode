@@ -2,7 +2,7 @@
 
 Write a function to find the longest common prefix string amongst an array of strings.
 
-> 思路
+> idea
 
 排除特殊情况、记录前缀长度，一个一个试呗。
 

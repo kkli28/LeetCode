@@ -8,7 +8,7 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
-> 思路
+> idea
 
 从容器中找到两个数的和为目标数target，最简单的方法就是遍历容器咯。为了
 效率，将每次内层递增都使用的值 `*begIter` 用变量value存储。

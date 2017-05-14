@@ -3,7 +3,7 @@
 Implement int sqrt(int x).
 Compute and return the square root of x.
 
-> 思路
+> idea
 
 Muah ha ha，还是我NB
 

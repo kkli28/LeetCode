@@ -5,7 +5,7 @@ Given an array of integers, every element appears twice except for one. Find tha
 Note:
 Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
-> 思路
+> idea
 
 所有数字异或，最后结果就是带求的数。因为除了待求的数，其余都是两个，故
 每相同的两个数对应的二进制都是相同，互相异或为0（不论所有这些数的异或顺序）。

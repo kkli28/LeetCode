@@ -4,7 +4,7 @@ Given two binary trees, write a function to check if they are equal or not.
 
 Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
 
-> 思路
+> idea
 
 先判断两个根节点指针，然后再递归判断左子树和右子树。
 

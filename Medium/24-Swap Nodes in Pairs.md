@@ -7,7 +7,7 @@ Given `1->2->3->4`, you should return the list as `2->1->4->3`.
 
 Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.
 
-> 思路
+> idea
 
 因为交换两个节点，需要知道前一个节点，因此附加一个头节点到最开始。三个链表指针l0、l1、l2用来标识
 前一个节点，待交换的第一个节点，待交换的第二个节点。

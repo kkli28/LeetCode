@@ -8,7 +8,7 @@ Given "bbbbb", the answer is "b", with the length of 1.
 Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must 
 be a substring, "pwke" is a subsequence and not a substring.
 
-> 思路
+> idea
 
 用begIndex迭代器指向当前找到的最大子串的首部，再用iter从begIndex到末尾，逐个字符
 与 `[begIndex,iter)` 中的元素进行比较（使用标准库find）。

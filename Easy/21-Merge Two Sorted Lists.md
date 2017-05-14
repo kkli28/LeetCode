@@ -2,7 +2,7 @@
 
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
-> 思路
+> idea
 
 直接使用两个链表的节点，将它们串联起来即可。故可用一个节点指针result保存第一个元素
 较小的链表的首指针，然后用temp指针指示当前已串联的链表的末尾，被指向的指针（l1或l2）

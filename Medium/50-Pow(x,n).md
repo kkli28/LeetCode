@@ -2,7 +2,7 @@
 
 Implement pow(x, n).
 
-> 思路
+> idea
 
 快速乘方算法。DSAAC中第24页有介绍。
 

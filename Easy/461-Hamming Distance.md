@@ -18,7 +18,7 @@ Explanation:
 ```
 The above arrows point to positions where the corresponding bits are different.
 
-> 思路
+> idea
 
 求出两个整数的汉明距离，即两者二进制表示中对应位不相同的个数。
 
