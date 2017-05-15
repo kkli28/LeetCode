@@ -86,9 +86,8 @@ public:
                     //递增result，并补齐height中[first_index, second_index]的数到smaller
 					for (int j = first_index+1; j < second_index; ++j) {
 						if (height[j] < smaller) {
-							int water= smaller - height[j];
-							result += water;
-							height[j] += water;
+							result += smaller - height[j];
+							height[j] =smaller;
 						}
 					}
 
